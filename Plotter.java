@@ -25,8 +25,6 @@ public class Plotter {
 			boolArray[1] = y > 0 ? true : false;
 		}
 		
-		System.out.println(Arrays.toString(boolArray));
-		
 		switch(Arrays.toString(boolArray).toLowerCase()) {
 			case "[true, true]" : return "You are North-East.";
 			case "[true, false]" : return "You are South-East";
